@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@500&family=Manrope:wght@500&family=Open+Sans:wght@400;700&family=Oswald:wght@500&family=Poppins:ital,wght@0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  background-color: gainsboro;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 3rem repeat(4, 1fr) 3rem;
+  gap: 10px;
+  padding: 5rem;
+  height: 100vh;
+}
+
+.container-nav {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2rem;
+  }
+
+nav {
+  grid-column: 1 / span 8;
+    font-size: 60px;
+   height: 5rem;
+  }
+
+h1 {
+
+  grid-column: 1 / 2;
+  font-size: 5rem;
+   }
+
+.one {
+  grid-column: 3/4;
+}
+
+.two {
+  grid-column: 4/5;
+}
+
+.three {
+  grid-column: 5/6;
+}
+
+.four {
+  grid-column: 6/7;
+}
+
+.menu {
+  grid-column: 7/8;
+  font-weight: 700;
+}
+
+.item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5rem;
+}
+
+.item-one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url(./assets/item-one.jpeg);
+}
+
+.item-two {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-image: url(./assets/item-two.jpeg);
+}
+
+.item-three {
+  grid-column: 7/8;
+  grid-row: 5/6;
+  background-image: url(./assets/item-three.jpeg);
+}
+
+.item-four {
+  grid-column: 6/7;
+  grid-row: 4/5;
+  background-image: url(./assets/item-four.jpeg);
+}
+
+.item-five {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  background-image: url(./assets/item-five.jpeg);
+}
+
+.item-six {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-image: url(./assets/item-six.jpeg);
+}
+
+.item-seven {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  background-image: url(./assets/item-seven.jpeg);
+}
+
+.item-eight {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-image: url(./assets/item-eight.jpeg);
+}
+
+.item-nine {
+  grid-column: 7/9;
+  grid-row: 2/4;
+  background-image: url(./assets/item-nine.jpeg);
+}
+
+h2 {
+  grid-column: 4/7;
+  grid-row: 3/4;
+  color: red;
+  font-size: 50rem;
+  letter-spacing: 140px;
+  font-weight: 400;
+}
+
+h3 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  font-size: 5rem;
+
+}
+
+h4 {
+  grid-column: 6 / 7;
+  grid-row: 6 / 7;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 5rem;
+
+}
